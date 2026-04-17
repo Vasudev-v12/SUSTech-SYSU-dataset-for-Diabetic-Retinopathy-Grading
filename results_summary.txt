@@ -1,0 +1,22 @@
+============================================================
+ DIABETIC RETINOPATHY GRADING — RESULTS SUMMARY
+============================================================
+
+Model          : tf_efficientnetv2_s.in21k_ft_in1k
+Val Accuracy   : 0.9221
+Val QWK        : 0.9575
+Val Macro F1   : 0.6902
+
+Confusion Matrix (rows=True, cols=Pred):
+[[124   2   0   0   0]
+ [  4   0   1   0   0]
+ [  0   1  70   1   1]
+ [  0   0   4  11   0]
+ [  0   0   3   1   8]]
+
+Output files:
+  best_model.pth                         81.73 MB
+  confusion_matrix.png                    0.03 MB
+  results_summary.txt                     0.00 MB
+  training_curves.png                     0.11 MB
+  training_log.csv                        0.00 MB
